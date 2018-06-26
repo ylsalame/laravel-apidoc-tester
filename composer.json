@@ -1,0 +1,28 @@
+{
+    "name": "ylsalame/laravelapidoctester", 
+    "description": "Laravel APIDoc Tester",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [ "php", "Laravel", "apidoc", "artisan", "test" ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.6.*",
+        "php": ">=5.6"
+    },
+    "authors": [
+        {
+            "name": "ylsalame",
+            "email": "25203798+ylsalame@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "YLSalame\\LaravelApiDocTester\\": "src/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YLSalame\\LaravelApiDocTester\\ApiDocTesterServiceProvider"
+            ]
+        }
+    }    
+}
