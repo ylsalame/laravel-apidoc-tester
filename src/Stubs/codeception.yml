@@ -1,0 +1,18 @@
+paths:
+    tests: test_data
+    log: test_data/log
+    data: test_data/data
+    support: test_data/support
+    envs: test_data/envs
+settings:
+    shuffle: true
+    bootstrap: _bootstrap.php
+    suite_class: \PHPUnit_Framework_TestSuite
+    colors: true
+    memory_limit: 1024M
+    log: true
+    lint: false
+    report_useless_tests: false
+    disallow_test_output: false
+    be_strict_about_changes_to_global_state: false
+    log_incomplete_skipped: false
